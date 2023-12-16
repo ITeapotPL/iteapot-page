@@ -160,7 +160,7 @@ const Navbar:React.FC=()=>{
                             projekty
                     </span>
                     {areProjectsShow?
-                        <ul className="absolute top-7">
+                        <ul className="absolute top-10">
                             <li className="hover:text-yellow-200 md:text-xl bg-blue-300 shadow-blue-100 shadow-md p-2 rounded-xl mt-1 cursor-pointer">
                                     getProject
                                 <span className="text-white md:text-2xl">
@@ -176,7 +176,7 @@ const Navbar:React.FC=()=>{
                             dokumenty
                     </span>
                     {areDocumentsShow?
-                        <ul className="absolute top-7">
+                        <ul className="absolute top-10">
                             <li className="hover:text-yellow-200 md:text-xl shadow-blue-100 shadow-md bg-blue-300 p-2 rounded-xl mt-1 cursor-pointer">
                                     getDocs
                                 <span className="text-white md:text-2xl">
@@ -196,7 +196,7 @@ const Navbar:React.FC=()=>{
                             zespół
                     </span>
                     {isTeamShow?
-                        <ul className="absolute top-7">
+                        <ul className="absolute top-10">
                             <li className="hover:text-yellow-200 md:text-xl shadow-blue-100 shadow-md bg-blue-300 p-2 rounded-xl mt-1 cursor-pointer">
                                     getTeam
                                 <span className="text-white md:text-2xl">
