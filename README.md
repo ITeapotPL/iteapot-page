@@ -1,5 +1,6 @@
 # ITeapot.pl Website
 
+
 ## Getting started
 To start developing, run the following commands:
 
