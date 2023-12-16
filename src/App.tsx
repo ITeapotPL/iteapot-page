@@ -2,7 +2,7 @@ import Navbar from "./Components/Navbar"
 function App() {
     return (
         <>
-            <div className="min-h-screen bg-gradient-to-br from-[#001D3D] via-[#00254b] to-[#003566] ">
+            <div className="min-h-screen bg-gradient-to-br from-[#001D3D] via-[#00254b] to-blue-300 ">
                 <div className="w-full h-full max-w-7xl mx-auto flex flex-col items-center relative">
                     <Navbar/>
                     {/* Header */}
