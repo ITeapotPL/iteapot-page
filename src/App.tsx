@@ -1,4 +1,5 @@
 import Navbar from "./Components/Navbar"
+import Content from "./Components/Content"
 function App() {
     return (
         <>
@@ -7,12 +8,11 @@ function App() {
                     <Navbar/>
                     {/* Header */}
                     
-                    <h1 className="text-center text-5xl font-sourcecode text-white mt-[10%]">
+                    <h1 className="text-center text-5xl font-sourcecode text-white ">
                         W <span className="text-yellow-100">ITeapot</span> parzymy najlepsze kody.
                     </h1>
+                    <Content/>
 
-
-                    {/* Content */}
                     {/* Footer */}
                 </div>
             </div>
