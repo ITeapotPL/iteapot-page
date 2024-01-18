@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar"
 import Content from "./Components/Content"
+import Footer from "./Components/Footer"
 function App() {
     return (
         <>
@@ -13,7 +14,7 @@ function App() {
                     </h1>
                     <Content/>
 
-                    {/* Footer */}
+                    <Footer />
                 </div>
             </div>
         </>
